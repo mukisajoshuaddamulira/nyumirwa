@@ -1,4 +1,4 @@
-import { todos } from './todos';
+import { todos } from './data';
 
 export default function handler(req, res) {
   const { id } = req.query;
